@@ -7,10 +7,10 @@ public class Sphere {
    public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
 
-      System.out.print("Enter radius of sphere: ");
+      System.out.print("Introduce el cambio de la esfera: ");
       double radius = input.nextDouble();
 
-      System.out.printf("Volume is %f%n", sphereVolume(radius));
+      System.out.printf("El volumen es %f%n", sphereVolume(radius));
    } 
 
    // calculate and return sphere volume
